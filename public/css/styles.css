@@ -1,0 +1,103 @@
+
+.card-text{
+    height: 5vw;
+    object-fit: cover;
+}
+.site-logo{
+    padding: unset;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1; }
+body.offcanvas-menu:before {
+    opacity: 1;
+    visibility: visible; }
+
+p {
+    color: #b3b3b3;
+    font-weight: 300; }
+
+a, a:hover {
+    text-decoration: none !important; }
+
+
+.site-navbar {
+    margin-bottom: 0px;
+    z-index: 1999;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: #7C9EA9;
+}
+@media (max-width: 991.98px) {
+    .site-navbar {
+        padding-top: 3rem;
+        padding-bottom: 3rem; } }
+.site-navbar .toggle-button {
+    position: absolute;
+    right: 0px; }
+
+.site-navbar .site-logo a {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+@media (max-width: 991.98px) {
+    .site-navbar .site-logo {
+        float: left;
+        position: relative; } }
+.content
+{
+    margin-top: 5%;
+
+    white-space: nowrap;
+}
+
+.navbar-default
+{
+    border: none !important;
+}
+.site-navbar .site-navigation .site-menu {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0; }
+.site-navbar .site-navigation .site-menu a {
+    text-decoration: none !important;
+    display: inline-block; }
+.site-navbar .site-navigation .site-menu > li {
+    display: inline-block; }
+.site-navbar .site-navigation .site-menu > li > a {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px 0px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7) !important;
+    display: inline-block;
+    text-decoration: none !important;
+    position: relative; }
+.
