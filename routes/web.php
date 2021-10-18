@@ -34,7 +34,8 @@ use Illuminate\Support\Facades\Auth;
     Route::get('/admin', [UsersController::class, 'index']);
     Route::post('/admin', [RestaurantsController::class, 'add']);
     Route::delete('/admin/{restaurant}', [RestaurantsController::class, 'remove']);
-    Route::patch('/admin/{user}/disable/', [UsersController::class, 'disable']);
-    Route::patch('/admin/{user}/enable/', [UsersController::class, 'enable']);
-    Route::get('/admin/hidden/', [UsersController::class, 'hiddenUsers']);
+    Route::patch('/admin/{user}/lock/', [UsersController::class, 'lock']);
+    Route::patch('/admin/{user}/unlock/', [UsersController::class, 'unlock']);
+    Route::get('/admin/users/', [UsersController::class, 'users']);
+    Route::get('/admin/locked/', [UsersController::class, 'lockedUsers']);
 

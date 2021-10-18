@@ -39,39 +39,51 @@
 
                     <!-- Right Side Of Navbar -->
 
-                    <div class="col-9  text-right">
-                        <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
+                    <nav class="nav navbar-nav navbar-right site-navigation text-right ml-auto d-none d-lg-block " id="navbarSupportedContent" role="navigation">
 
-                        <nav class="site-navigation text-right ml-auto d-none d-lg-block " role="navigation">
+                        <form method="GET" action="/restaurants"  class="form-inline my-4 my-lg-0 nav-item" autocomplete="off" id="navbar-collapse" role="search">
+                            {{ csrf_field() }}
+                            <input class="form-control mr-sm-2" name="query" type="search" placeholder="Search">
+                            <button class="btn restaurev-btn" type="submit">Search</button>
+                        </form>
+                        <ul class="site-menu main-menu js-clone-nav ml-auto nav-item " id="navbarNavDropdown">
+                            <!-- Authentication Links -->
+                            @guest
+                                <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
+                                <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>
+                            @else
 
-                            <ul class="site-menu main-menu js-clone-nav ml-auto nav-item " id="navbarNavDropdown">
+                                <li class="nav-item dropdown">
 
-                                <!-- Authentication Links -->
-                                @guest
-                                    <li><a class="nav-link" href="{{ route('login') }}">Login</a></li>
-                                    <li><a class="nav-link" href="{{ route('register') }}">Register</a></li>
-                                @else
+                                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/account">Hi, {{ Auth::user()->name }}</a>
 
-                                    <li class="nav-item dropdown">
+                                    <div class="dropdown-menu restaurev-menu" aria-labelledby="navbarDropdownMenuLink">
 
-                                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="/account">Hi, {{ Auth::user()->name }}</a>
+                                        @if( Auth::user()->role == \App\Models\Enums\Roles::reviewer)
+                                            <a class="dropdown-item" href="/account">Account</a>
+                                        @else
 
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                                   onclick="event.preventDefault();
+                                            <a class="dropdown-item" href="/admin">Admin dashboard</a>
+                                            <a href="/admin/users/" class="dropdown-item">Users</a>
+                                            <a href="/admin/locked/" class="dropdown-item">
+                                                Locked users <span class="badge badge-primary badge-pill">{{ Auth::user()->where('status', \App\Models\Enums\Status::locked)->count('status')}}</span>
+                                            </a>
+                                        @endif
+
+                                        <a class="dropdown-item" href="{{ route('logout') }}"
+                                           onclick="event.preventDefault();
                                                          document.getElementById('logout-form').submit();">
-                                                    Logout
-                                                </a>
+                                            Logout
+                                        </a>
 
-                                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                                    {{ csrf_field() }}
-                                                </form>
-                                            </div>
-                                    </li>
-                                @endguest
-                            </ul>
-                        </nav>
-                    </div>
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </div>
+                                </li>
+                            @endguest
+                        </ul>
+                    </nav>
                 </nav>
             </div>
         </nav>
@@ -80,10 +92,11 @@
 
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.sticky.js') }}"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>

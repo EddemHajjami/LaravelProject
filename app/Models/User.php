@@ -43,6 +43,6 @@ class User extends Authenticatable
     ];
 
     public function findForPassport($identifier) {
-		return User::orWhere('email', $identifier);
+		return User::orWhere('email', $identifier)->where('status', 1)->first();
 	}
 }

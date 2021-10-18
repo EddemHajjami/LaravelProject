@@ -6,15 +6,11 @@
 
     <div class="col-md-12">
         <div class="welcome">
-
             @guest
-
                 <div class="jumbotron">
                     <h1 class="display-4">Please login to review</h1>
                 </div>
-
             @endguest
-
         </div>
     </div>
 

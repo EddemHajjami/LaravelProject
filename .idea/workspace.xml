@@ -1,255 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ad5910e-b9c9-446b-8f1e-57073abb7aa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/LaravelProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Laravel_30_08_2021__17_00.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/schemas/frameworkDescriptionVersion1.1.4.xsd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Restaurant.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/sanctum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/RestaurantFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2017_10_08_182110_create_reviews_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_09_06_204348_create_restaurants_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/RestaurantssTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_deprecate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap/vendor/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/RestauRev.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/RestauRev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery.sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/jquery.sticky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/restaurants/show.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Enum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Enums/Roles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Enums/Status.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/logo_restaurev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/locked.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Restaurant.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Restaurant.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Review.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Review.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/bootstrap/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restaurants/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurants/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +90,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
@@ -420,27 +219,30 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Models/Enums" />
+      <recent name="$PROJECT_DIR$/public/js/bootstrap" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/resources/images" />
       <recent name="$PROJECT_DIR$/resources" />
-      <recent name="$PROJECT_DIR$/public/css" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner scope="XML" />
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" />
       <method v="2" />
     </configuration>
   </component>
@@ -465,7 +267,7 @@
       <workItem from="1630917679956" duration="877000" />
       <workItem from="1630920913332" duration="410000" />
       <workItem from="1630957572703" duration="24238000" />
-      <workItem from="1631624236485" duration="41348000" />
+      <workItem from="1631624236485" duration="118249000" />
     </task>
     <servers />
   </component>
@@ -480,19 +282,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -503,10 +293,35 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="578" y="266" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1631279811324">
-      <screen x="0" y="25" width="1680" height="964" />
+    <state x="428" y="166" key="#CLI_Interpreters" timestamp="1634075270460">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="428" y="166" key="#CLI_Interpreters/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634075270460" />
+    <state x="474" y="189" key="#Inspections" timestamp="1634051322568">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="474" y="189" key="#Inspections/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634051322568" />
+    <state x="573" y="276" key="#Node.js_and_NPM" timestamp="1634045376711">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="573" y="276" key="#Node.js_and_NPM/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634045376711" />
+    <state x="513" y="154" key="#PHP" timestamp="1634073355485">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="513" y="154" key="#PHP/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634073355485" />
+    <state x="578" y="267" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1634480500041">
+      <screen x="0" y="25" width="1680" height="966" />
     </state>
     <state x="578" y="266" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-914.-1080.1920.1080/0.25.1680.964/1006.-1080.1920.1080@0.25.1680.964" timestamp="1631279811324" />
+    <state x="578" y="267" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1634480500041" />
+    <state x="627" y="437" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1634120193151">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="627" y="437" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634120193151" />
+    <state x="619" y="377" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0" timestamp="1634570796874">
+      <screen x="0" y="25" width="1680" height="968" />
+    </state>
+    <state x="619" y="377" key="#com.jetbrains.php.refactoring.move.PhpMoveClassDialog#0/-914.-1080.1920.1080/0.25.1680.968/1006.-1080.1920.1080@0.25.1680.968" timestamp="1634570796874" />
     <state width="520" height="442" key="Diff.GoToChangePopup" timestamp="1633078765670">
       <screen x="0" y="25" width="1680" height="966" />
     </state>
@@ -515,10 +330,46 @@
       <screen x="0" y="25" width="1680" height="966" />
     </state>
     <state x="235" y="107" width="1344" height="772" key="DiffContextDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633078882066" />
-    <state x="632" y="234" width="660" height="540" key="NewPhpClassDialog" timestamp="1630914274858">
+    <state x="628" y="266" key="FileChooserDialogImpl" timestamp="1634050529537">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
-    <state x="632" y="234" width="660" height="540" key="NewPhpClassDialog/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1630914274858" />
+    <state x="628" y="266" key="FileChooserDialogImpl/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634050529537" />
+    <state width="1638" height="318" key="GridCell.Tab.0.bottom" timestamp="1634119721379">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.bottom/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721379" />
+    <state width="1638" height="318" key="GridCell.Tab.0.center" timestamp="1634119721378">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.center/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721378" />
+    <state width="1638" height="318" key="GridCell.Tab.0.left" timestamp="1634119721375">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.left/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721375" />
+    <state width="1638" height="318" key="GridCell.Tab.0.right" timestamp="1634119721379">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.right/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721379" />
+    <state width="1638" height="318" key="GridCell.Tab.1.bottom" timestamp="1634119721385">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.bottom/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721385" />
+    <state width="1638" height="318" key="GridCell.Tab.1.center" timestamp="1634119721383">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.center/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721383" />
+    <state width="1638" height="318" key="GridCell.Tab.1.left" timestamp="1634119721381">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.left/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721381" />
+    <state width="1638" height="318" key="GridCell.Tab.1.right" timestamp="1634119721384">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.right/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634119721384" />
+    <state x="632" y="234" width="660" height="540" key="NewPhpClassDialog" timestamp="1634573434206">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="632" y="234" width="660" height="540" key="NewPhpClassDialog/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634573434206" />
     <state x="753" y="432" key="NewPhpFileDialog" timestamp="1630914111529">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
@@ -527,39 +378,51 @@
       <screen x="0" y="25" width="1680" height="966" />
     </state>
     <state x="616" y="213" key="RollbackChangesDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633078852285" />
-    <state x="349" y="143" key="SettingsEditor" timestamp="1633078524041">
-      <screen x="0" y="25" width="1680" height="966" />
+    <state x="349" y="143" key="SettingsEditor" timestamp="1634075271152">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
+    <state x="349" y="143" key="SettingsEditor/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634075271152" />
     <state x="349" y="143" key="SettingsEditor/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633078524041" />
     <state x="349" y="143" key="SettingsEditor/-914.-1080.1920.1080/0.25.1680.967/1006.-1080.1920.1080@0.25.1680.967" timestamp="1631795549966" />
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1633078696923">
-      <screen x="0" y="25" width="1680" height="966" />
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1634575892109">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633078696923" />
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634575892109" />
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633079001208" />
     <state x="100" y="125" width="1480" height="764" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1633015554885">
       <screen x="0" y="25" width="1680" height="966" />
     </state>
     <state x="100" y="125" width="1480" height="764" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633015554885" />
-    <state x="641" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1633078586223">
-      <screen x="0" y="25" width="1680" height="966" />
+    <state x="641" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1634576123148">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="641" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-914.-1080.1920.1080/0.25.1680.964/1006.-1080.1920.1080@0.25.1680.964" timestamp="1631288649404" />
+    <state x="641" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634576123148" />
     <state x="641" y="426" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633078586223" />
-    <state x="541" y="262" width="597" height="490" key="find.popup" timestamp="1632816206381">
-      <screen x="0" y="25" width="1680" height="967" />
+    <state x="0" y="25" width="1680" height="965" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1634075628966">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
-    <state x="541" y="262" width="597" height="490" key="find.popup/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1632815993584" />
+    <state x="0" y="25" width="1680" height="965" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634075628966" />
+    <state x="541" y="262" width="597" height="490" key="find.popup" timestamp="1634575024163">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="541" y="262" width="597" height="490" key="find.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634575024163" />
+    <state x="541" y="262" width="597" height="548" key="find.popup/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1634415514948" />
     <state x="541" y="262" width="597" height="490" key="find.popup/-914.-1080.1920.1080/0.25.1680.967/1006.-1080.1920.1080@0.25.1680.967" timestamp="1632816206381" />
+    <state x="565" y="319" key="jetbrains.nodejs.interpreters-dialog" timestamp="1634050530744">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state x="565" y="319" key="jetbrains.nodejs.interpreters-dialog/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634050530744" />
     <state x="505" y="232" key="run.anything.popup" timestamp="1633012533059">
       <screen x="0" y="25" width="1680" height="966" />
     </state>
     <state x="505" y="232" key="run.anything.popup/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633012533059" />
-    <state x="505" y="237" width="670" height="678" key="search.everywhere.popup" timestamp="1633015736352">
-      <screen x="0" y="25" width="1680" height="966" />
+    <state x="505" y="237" width="670" height="677" key="search.everywhere.popup" timestamp="1634575425463">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.964/1006.-1080.1920.1080@0.25.1680.964" timestamp="1631285939676" />
-    <state x="505" y="237" width="670" height="677" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1631689299392" />
-    <state x="505" y="237" width="670" height="678" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633015736352" />
+    <state x="505" y="237" width="670" height="677" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634575425463" />
+    <state x="505" y="237" width="670" height="678" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1633079273616" />
     <state x="505" y="237" width="670" height="679" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.967/1006.-1080.1920.1080@0.25.1680.967" timestamp="1631795546630" />
   </component>
 </project>

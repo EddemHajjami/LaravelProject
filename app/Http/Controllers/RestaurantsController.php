@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Restaurant;
 use App\Models\Review;
 use App\Models\User;
-use Request;
+use Illuminate\Http\Request;
 
 class RestaurantsController extends Controller
 {
@@ -15,15 +15,16 @@ class RestaurantsController extends Controller
         $this->middleware('auth');
     }
 
-    public function index()
+    public function index(Request $request)
     {
+        $query = $request->get('query');
 
-        $search = Request::get('search');
-
-        $restaurants = restaurant::where('name','like','%'.$search.'%')
+        $restaurants = Restaurant::where('name', 'LIKE', "%" . $query . "%")
+            ->orWhere('location', 'LIKE', "%" . $query . "%")
             ->orderBy('name')
-            ->paginate(20);
+            ->paginate(15);
 
+        print_r($request->get('search'));
 
         return view('restaurants.index', compact('restaurants'));
     }
@@ -36,9 +37,9 @@ class RestaurantsController extends Controller
     public function add(Request $request) {
         $this->validate($request, [
             'name' => 'required|max:50',
-            'location' => 'required|max:10',
+            'location' => 'required|max:15',
             'foodType' => 'required',
-            'image' => 'required|max:25'
+            'image' => 'required|max:250'
         ]);
 
         $restaurant = new restaurant;
@@ -51,6 +52,17 @@ class RestaurantsController extends Controller
         $restaurant->save();
 
         flash('restaurant was successfully added!')->success();
+
+        return back();
+    }
+
+    public function remove($id) {
+
+        $restaurant = Restaurant::find($id);
+        $restaurant->delete();
+
+        flash('restaurant was successfully deleted!')->success();
+
 
         return back();
     }
