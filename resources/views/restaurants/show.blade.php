@@ -18,7 +18,7 @@
                         <span> Food type: {{ $restaurant->foodType }} </span>
 
                     </p>
-                    <p> {{ $restaurant->description }} </p>
+                    <p class="font-weight-normal"> About: {{ $restaurant->description }} </p>
                     <a class="btn btn-info" href="/restaurants/">back to restaurants</a>
                 </div>
             </div>
