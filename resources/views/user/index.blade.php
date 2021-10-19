@@ -3,9 +3,11 @@
 @section('content')
 <div class="container">
     <div class="row">
+        <h1>Your reviews</h1>
+    </div>
+    <div class="row">
         @include('flash::message')
         <div class="col-md-12">
-            <h1>Your reviews</h1>
             <p>
                 @foreach($reviews as $review)
                     @if(Auth::user()->id == $review->user_id)

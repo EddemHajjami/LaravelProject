@@ -4,18 +4,21 @@
 <div class="container">
 
     <div class="row">
+        <h1>Edit review</h1>
+    </div>
+
+    <div class="row">
+        @if (count($errors))
+            @foreach ($errors->all() as $error)
+                <div class="alert alert-danger col-md-12" role="alert">
+                    {{$error}}
+                </div>
+            @endforeach
+        @endif
+    </div>
+
+    <div class="row">
         <div class="col-md-12 edit">
-
-            @if (count($errors))
-                @foreach ($errors->all() as $error)
-                    <div class="alert alert-danger col-md-12" role="alert">
-                        {{$error}}
-                    </div>
-                @endforeach
-            @endif
-
-            <h4>Edit review</h4>
-            <br>
 
             <form method="POST" action="/account/{{$review->id}}">
                 {{ csrf_field() }}
