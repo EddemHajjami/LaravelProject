@@ -23,7 +23,7 @@
                         <div class="card-body">
                             <a href="{{ $restaurant->path() }}"><h5 class="card-title">{{ $restaurant->name }}</h5></a>
 
-                            <p class="card-subtitle mb-2 text-muted">Locatie: {{$restaurant->location}}</p>
+                            <p class="card-subtitle mb-2 text-muted">Location: {{$restaurant->location}}</p>
                             <p class="card-text">Food type: {{$restaurant->foodType}}</p>
 
                             <form method="POST" action="/admin/{{ $restaurant->id }}">

@@ -24,8 +24,6 @@ class RestaurantsController extends Controller
             ->orderBy('name')
             ->paginate(15);
 
-        print_r($request->get('search'));
-
         return view('restaurants.index', compact('restaurants'));
     }
 

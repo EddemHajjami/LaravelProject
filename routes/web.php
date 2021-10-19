@@ -25,17 +25,16 @@ use Illuminate\Support\Facades\Auth;
     Route::get('/restaurants/{restaurant}', [RestaurantsController::class, 'show']);
     Route::post('/restaurants/{restaurant}', [ReviewsController::class, 'add']);
 
-    Route::get('/account', [UsersController::class, 'user']);
-    Route::get('/account/{review}/edit', [ReviewsController::class, 'edit']);
-    Route::patch('/account/{review}', [ReviewsController::class, 'patch']);
-    Route::delete('/account/{review}', [ReviewsController::class, 'remove']);
+    Route::get('/account', [UsersController::class, 'user'])->middleware('reviewer');
+    Route::get('/account/{review}/edit', [ReviewsController::class, 'edit'])->middleware('reviewer');;
+    Route::patch('/account/{review}', [ReviewsController::class, 'patch'])->middleware('reviewer');
+    Route::delete('/account/{review}', [ReviewsController::class, 'remove'])->middleware('reviewer');
 
-
-    Route::get('/admin', [UsersController::class, 'index']);
-    Route::post('/admin', [RestaurantsController::class, 'add']);
-    Route::delete('/admin/{restaurant}', [RestaurantsController::class, 'remove']);
-    Route::patch('/admin/{user}/lock/', [UsersController::class, 'lock']);
-    Route::patch('/admin/{user}/unlock/', [UsersController::class, 'unlock']);
-    Route::get('/admin/users/', [UsersController::class, 'users']);
-    Route::get('/admin/locked/', [UsersController::class, 'lockedUsers']);
+    Route::get('/admin', [UsersController::class, 'index'])->middleware('admin');
+    Route::post('/admin', [RestaurantsController::class, 'add'])->middleware('admin');
+    Route::delete('/admin/{restaurant}', [RestaurantsController::class, 'remove'])->middleware('admin');
+    Route::patch('/admin/{user}/lock/', [UsersController::class, 'lock'])->middleware('admin');
+    Route::patch('/admin/{user}/unlock/', [UsersController::class, 'unlock'])->middleware('admin');
+    Route::get('/admin/users/', [UsersController::class, 'users'])->middleware('admin');
+    Route::get('/admin/locked/', [UsersController::class, 'lockedUsers'])->middleware('admin');
 

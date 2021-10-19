@@ -23,7 +23,7 @@ class ReviewsController extends Controller
 
     	$restaurant->reviews()->save($review);
 
-    	flash('Your review was successfully added!')->success();
+    	flash('Review added successfully')->success();
 
     	return back();
     }
@@ -44,7 +44,7 @@ class ReviewsController extends Controller
 
         $reviews = Review::all();
         $review->update($request->all());
-        flash('Your review was successfully updated!, refresh page <a href="/account">here</a>')->success();
+        flash('Review updated successfully, refresh page <a href="/account">here</a> to see result')->success();
         return view('user.index', compact('reviews'));
     }
 
@@ -53,7 +53,7 @@ class ReviewsController extends Controller
         $review = Review::find($id);
         $review->delete();
 
-        flash('Review was successfully deleted!')->success();
+        flash('Review deleted successfully')->success();
 
         return back();
     }

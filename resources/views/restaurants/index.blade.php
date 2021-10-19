@@ -19,7 +19,7 @@
                         <img class="card-img-top" src="{{ $restaurant->image }}" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">{{ $restaurant->name }}</h5>
-                            <p class="card-text">Locatie: {{$restaurant->location}}</p>
+                            <p class="card-text">Location: {{$restaurant->location}}</p>
                             <div class="col text-right">
                                 <a href="{{ $restaurant->path() }}">
                                     <button type="submit" class="btn btn-info">review</button>

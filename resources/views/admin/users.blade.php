@@ -23,28 +23,22 @@
                         <td> {{ $user->email }} </td>
                         <td> {{ \App\Models\Enums\Status::getKeys()[$user->status]  }} </td>
 
-                        @if($user->role == \App\Models\Enums\Roles::admin)
-                            @if($user->status == \App\Models\Enums\Status::locked)
-                                <td>
-                                    <form method="POST" action="/admin/{{ $user->id }}/unlock">
-                                        {{ method_field('PATCH') }}
-                                        {{ csrf_field() }}
-                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
-
-                                        <button type="submit" class="btn btn-info" name="unlock">unlock</button>
-                                    </form>
-                                </td>
-                            @else
+                        @if($user->role == \App\Models\Enums\Roles::reviewer)
+                            @if($user->status == \App\Models\Enums\Status::unlocked)
                                 <td>
                                     <form method="POST" action="/admin/{{ $user->id }}/lock">
                                         {{ method_field('PATCH') }}
                                         {{ csrf_field() }}
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                                        <button type="submit" class="btn btn-info" name="lock">lock</button>
+                                        <button type="submit" class="btn btn-danger" name="lock">lock</button>
                                     </form>
                                 </td>
                             @endif
+                        @else
+                            <td>
+                                <button type="submit" class="btn btn-secondary" disabled="true" name="unlock">unable to lock admin</button>
+                            </td>
                         @endif
                     </tr>
                 @endforeach

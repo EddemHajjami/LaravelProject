@@ -24,7 +24,7 @@
                     <div class="card-body">
                         <a href="{{ $restaurant->path() }}"><h5 class="card-title">{{ $restaurant->name }}</h5></a>
 
-                        <p class="card-text">Locatie: {{$restaurant->location}}</p>
+                        <p class="card-text">Location: {{$restaurant->location}}</p>
                     </div>
                 </div>
             </div>

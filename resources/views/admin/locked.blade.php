@@ -37,7 +37,7 @@
                                         {{ csrf_field() }}
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                                        <button type="submit" class="btn btn-info" name="unlock">unlock</button>
+                                        <button type="submit" class="btn btn-success" name="unlock">unlock</button>
                                     </form>
                                 </div>
                             </div>

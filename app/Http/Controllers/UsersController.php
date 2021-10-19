@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Enums\Status;
 use App\Models\Restaurant;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -17,13 +18,12 @@ class UsersController extends Controller
     public function index()
     {
     	$restaurants = restaurant::all();
-        $allUsers = User::where('status', 0)->count('status');
-        return view('admin.index', compact('restaurants', 'allUsers'));
+        return view('admin.index', compact('restaurants'));
     }
 
     public function users()
     {
-        $users = User::all()->where('status', 1);
+        $users = User::all()->where('status', Status::unlocked);
     	return view('admin.users', compact('users'));
     }
 
@@ -47,25 +47,25 @@ class UsersController extends Controller
     public function unlock($id) {
 
         $user = User::findOrFail($id);
-        $user->status = 1;
+        $user->status = Status::unlocked;
         $user->update();
 
-        flash('Unlocked '. $user->name)->success();
+        flash('Successfully unlocked '. $user->name)->success();
         return back();
     }
 
     public function lock($id) {
 
         $user = User::findOrFail($id);
-        $user->status = 0;
+        $user->status = Status::locked;
         $user->update();
 
-        flash('Locked '. $user->name)->success();
+        flash('Successfully locked '. $user->name)->success();
         return back();
     }
 
     public function lockedUsers() {
-        $users = User::all()->where('status', 0);
+        $users = User::all()->where('status', Status::locked);
         return view('admin.locked', compact('users'));
     }
 
