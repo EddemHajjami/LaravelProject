@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Enums\Roles;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
@@ -43,6 +44,6 @@ class User extends Authenticatable
     ];
 
     public function findForPassport($identifier) {
-		return User::orWhere('email', $identifier)->where('status', 1)->first();
+		return User::orWhere('email', $identifier)->where('status', Roles::admin)->first();
 	}
 }

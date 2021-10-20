@@ -7,6 +7,34 @@
         </div>
 
         <div class="row">
+            <div class="col pull-right">
+                <div class="col-md-5 btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        role
+                    </button>
+                    <div class="dropdown-menu">
+                        <form method="GET" action="/admin/users/">
+                            {{ csrf_field() }}
+                            <input class="form-control mr-sm-2" name="filter" value="{{\App\Models\Enums\Roles::reviewer}}" type="hidden">
+                            <button class="dropdown-item" type="submit">{{ \App\Models\Enums\Roles::getKeys()[\App\Models\Enums\Roles::reviewer] }}</button>
+                        </form>
+                        <form method="GET" action="/admin/users/">
+                            {{ csrf_field() }}
+                            <input class="form-control mr-sm-2" name="filter" value="{{\App\Models\Enums\Roles::admin}}" type="hidden">
+                            <button class="dropdown-item" type="submit">{{ \App\Models\Enums\Roles::getKeys()[\App\Models\Enums\Roles::admin] }}</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 btn-group">
+                    <form method="GET" action="/admin/users/">
+                        <input class="form-control mr-sm-2" name="allUsers" type="hidden">
+                        <button type="submit" class="btn btn-info">all users</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
             <table class="table table-striped">
                 <thead>
                 <tr>

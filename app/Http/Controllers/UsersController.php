@@ -21,9 +21,17 @@ class UsersController extends Controller
         return view('admin.index', compact('restaurants'));
     }
 
-    public function users()
+    public function users(Request $request)
     {
-        $users = User::all()->where('status', Status::unlocked);
+        if ($request->exists('filter')){
+            $users = User::all()->where('status', Status::unlocked)
+                ->where('role', $request->get('filter'));
+        }
+        else
+        {
+            $users = User::all()->where('status', Status::unlocked);
+        }
+
     	return view('admin.users', compact('users'));
     }
 

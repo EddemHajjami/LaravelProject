@@ -7,8 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8c71364f-843b-4c0d-8e21-74c369318fff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,10 +173,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634649014533">
+    <state x="304" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1634720931551">
       <screen x="0" y="25" width="1680" height="966" />
     </state>
-    <state x="304" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1634649014533" />
+    <state x="304" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1634720931551" />
     <state x="100" y="125" width="1480" height="765" key="DiffContextDialog" timestamp="1634655820555">
       <screen x="0" y="25" width="1680" height="966" />
     </state>
@@ -205,9 +208,9 @@
     </state>
     <state x="541" y="262" width="597" height="490" key="find.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634581552458" />
     <state x="541" y="262" width="597" height="548" key="find.popup/-914.-1080.1920.1080/0.25.1680.967/1006.-1080.1920.1080@0.25.1680.967" timestamp="1634635149702" />
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1634581547496">
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1634737297889">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634581547496" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634737297889" />
   </component>
 </project>

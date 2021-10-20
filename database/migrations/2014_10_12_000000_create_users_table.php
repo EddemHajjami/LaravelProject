@@ -19,8 +19,8 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->integer('role')->default(0);
-            $table->integer('status')->default(1);
+            $table->integer('role')->default(\App\Models\Enums\Roles::reviewer);
+            $table->integer('status')->default(\App\Models\Enums\Status::unlocked);
             $table->rememberToken();
             $table->timestamps();
         });
