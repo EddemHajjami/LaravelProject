@@ -27,6 +27,7 @@
                 </div>
                 <div class="col-md-5 btn-group">
                     <form method="GET" action="/admin/users/">
+                        {{ csrf_field() }}
                         <input class="form-control mr-sm-2" name="allUsers" type="hidden">
                         <button type="submit" class="btn btn-info">all users</button>
                     </form>

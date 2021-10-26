@@ -17,7 +17,7 @@ class ReviewsController extends Controller
     	]);
 
     	$review = new Review;
-    	$review->by(Auth::User());
+    	$review->by(Auth::user());
     	$review->body = $request->body;
     	$review->rating = $request->rating;
 
@@ -41,6 +41,8 @@ class ReviewsController extends Controller
             'body' => 'required|min:10',
             'rating' => 'required|max:2',
         ]);
+
+        print_r($review->id);
 
         $reviews = Review::all();
         $review->update($request->all());
