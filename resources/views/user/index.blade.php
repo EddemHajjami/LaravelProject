@@ -12,7 +12,7 @@
                 @foreach($reviews as $review)
                     @if(Auth::user()->id == $review->user_id)
                         <button class="btn btn-link" data-toggle="collapse" href="#multiCollapseExample{{ $review->id}}" role="button" aria-expanded="false" aria-controls="multiCollapseExample{{ $review->id }}" style="margin-bottom: 10px;">
-                            {{$review->name}}, Rating: {{$review->rating}}
+                            {{$review->restaurant->name}}, Rating: {{$review->rating}}
                         </button>
                     @endif
                 @endforeach
@@ -25,7 +25,7 @@
                         <div class="col">
                             <div class="collapse multi-collapse" id="multiCollapseExample{{ $review->id }}">
                                 <div class="card card-body clearfix">
-                                    <h5 class="lead">Restaurant: {{ $review->name }}</h5>
+                                    <h5 class="lead">Restaurant: {{ $review->restaurant->name }}</h5>
                                     <h7 class="pull-right">{{ $review->created_at }}</h7></br>
                                     <h7>Review: {{ $review->body }}</h7></br>
                                     <h7>Rating: {{ $review->rating }}</h7></br>

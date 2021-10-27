@@ -37,8 +37,10 @@ class UsersController extends Controller
 
     public function user()
     {
-        $reviews = DB::table('reviews')
-            ->join('restaurants', 'reviews.restaurant_id', '=', 'restaurants.id')->get();
+        $reviews = Review::with('restaurant')
+            ->join('restaurants', 'reviews.restaurant_id', '=', 'restaurants.id')
+            ->get('reviews.*');
+
     	return view('user.index', compact('reviews'));
     }
 
