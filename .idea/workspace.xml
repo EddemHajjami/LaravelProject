@@ -6,12 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c71364f-843b-4c0d-8e21-74c369318fff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RestaurantsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurants/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/restaurants/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/restaurants/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +21,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="some-refactoring" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,19 +149,47 @@
       <path value="$PROJECT_DIR$/vendor/laracasts/flash" />
     </include_path>
   </component>
+  <component name="ProjectId" id="20B781NS18e3hsQFW2VM0lE6gR2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager">
     <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/composer.json" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c71364f-843b-4c0d-8e21-74c369318fff" name="Default Changelist" comment="" />
+      <created>1635505966783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635505966783</updated>
+      <workItem from="1635505968741" duration="8351000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -181,6 +212,38 @@
       <screen x="0" y="25" width="1680" height="966" />
     </state>
     <state x="100" y="125" width="1480" height="765" key="DiffContextDialog/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1634655820555" />
+    <state width="1638" height="318" key="GridCell.Tab.0.bottom" timestamp="1635439457082">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.bottom/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457082" />
+    <state width="1638" height="318" key="GridCell.Tab.0.center" timestamp="1635439457080">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.center/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457080" />
+    <state width="1638" height="318" key="GridCell.Tab.0.left" timestamp="1635439457080">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.left/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457080" />
+    <state width="1638" height="318" key="GridCell.Tab.0.right" timestamp="1635439457081">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.0.right/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457081" />
+    <state width="1638" height="318" key="GridCell.Tab.1.bottom" timestamp="1635439457084">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.bottom/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457084" />
+    <state width="1638" height="318" key="GridCell.Tab.1.center" timestamp="1635439457083">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.center/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457083" />
+    <state width="1638" height="318" key="GridCell.Tab.1.left" timestamp="1635439457082">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.left/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457082" />
+    <state width="1638" height="318" key="GridCell.Tab.1.right" timestamp="1635439457083">
+      <screen x="0" y="25" width="1680" height="965" />
+    </state>
+    <state width="1638" height="318" key="GridCell.Tab.1.right/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635439457083" />
     <state x="581" y="237" key="NewPhpClassDialog" timestamp="1634582494317">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
@@ -194,10 +257,10 @@
       <screen x="0" y="25" width="1680" height="965" />
     </state>
     <state x="692" y="425" key="VCS.ChangelistChooser/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634579106557" />
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1634657481294">
-      <screen x="0" y="25" width="1680" height="966" />
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1635321846952">
+      <screen x="0" y="25" width="1680" height="965" />
     </state>
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634578575331" />
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635321846952" />
     <state x="440" y="244" key="Vcs.Push.Dialog.v2/-914.-1080.1920.1080/0.25.1680.966/1006.-1080.1920.1080@0.25.1680.966" timestamp="1634657481294" />
     <state x="641" y="425" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1634655620272">
       <screen x="0" y="25" width="1680" height="966" />
@@ -208,9 +271,20 @@
     </state>
     <state x="541" y="262" width="597" height="490" key="find.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634581552458" />
     <state x="541" y="262" width="597" height="548" key="find.popup/-914.-1080.1920.1080/0.25.1680.967/1006.-1080.1920.1080@0.25.1680.967" timestamp="1634635149702" />
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1634737297889">
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1635516622650">
       <screen x="0" y="25" width="1680" height="965" />
     </state>
-    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1634737297889" />
+    <state x="505" y="237" width="670" height="676" key="search.everywhere.popup/-914.-1080.1920.1080/0.25.1680.965/1006.-1080.1920.1080@0.25.1680.965" timestamp="1635516622650" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/ReviewsController.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

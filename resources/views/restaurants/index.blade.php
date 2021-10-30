@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="jumbotron">
-                <h1 class="display-4">Please review a restuarant!</h1>
+                <h1 class="display-4">Please review a restaurant!</h1>
             </div>
         </div>
     </div>

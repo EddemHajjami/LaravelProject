@@ -6,6 +6,7 @@ use App\Models\Restaurant;
 use App\Models\Review;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class RestaurantsController extends Controller
 {
@@ -29,7 +30,9 @@ class RestaurantsController extends Controller
 
     public function show(restaurant $restaurant, User $users, Review $reviews)
     {
-        return view('restaurants.show', compact('restaurant', 'users', 'reviews'));
+        $userReviews = Review::where('user_id', '=', Auth::user()->id)->get();
+
+        return view('restaurants.show', compact('restaurant', 'users', 'reviews', 'userReviews'));
     }
 
     public function add(Request $request) {

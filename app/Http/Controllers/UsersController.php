@@ -37,21 +37,9 @@ class UsersController extends Controller
 
     public function user()
     {
-        $reviews = Review::with('restaurant')
-            ->join('restaurants', 'reviews.restaurant_id', '=', 'restaurants.id')
-            ->get('reviews.*');
+        $reviews = Review::with('restaurant')->get();
 
     	return view('user.index', compact('reviews'));
-    }
-
-    public function remove($id) {
-
-        $user = User::findOrFail($id);
-        $user->delete();
-
-        flash('User was deleted!')->success();
-
-        return back();
     }
 
     public function unlock($id) {

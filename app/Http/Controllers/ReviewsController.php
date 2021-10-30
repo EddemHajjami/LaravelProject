@@ -30,19 +30,15 @@ class ReviewsController extends Controller
 
     public function edit(Review $review)
     {
-
         return view('user.edit', compact('review'));
     }
 
     public function patch(Request $request, Review $review)
     {
-
         $this->validate($request, [
             'body' => 'required|min:10',
             'rating' => 'required|max:2',
         ]);
-
-        print_r($review->id);
 
         $reviews = Review::all();
         $review->update($request->all());

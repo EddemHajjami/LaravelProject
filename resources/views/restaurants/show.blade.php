@@ -34,9 +34,21 @@
                 @foreach($restaurant->reviews as $review)
 
                     <div class="alert alert-info clearfix" role="alert">
+
                         <div class="alert-heading">
+                            @if ($userReviews->count() >= 2 && $review->user_id == auth()->user()->id)
+                                <form method="POST" action="/restaurants/{{ $review->id }}">
+                                    {{ method_field('DELETE') }}
+                                    {{ csrf_field() }}
+                                    <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                    <button type="submit" class="close text-right">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <br>
+                                </form>
+                            @endif
                             <p class="font-weight-bold pull-left">{{ $review->user->name }}</p>
-                            <p class="text-right">{{ $review->created_at }}</p>
+                            <p class="text-right"><small>{{ $review->created_at }}</small></p>
                         </div>
                         <hr>
                         <p class="font-weight-normal pull-left mb-0">{{ $review->body }}</p>

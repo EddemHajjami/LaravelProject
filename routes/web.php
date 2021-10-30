@@ -25,10 +25,10 @@ use Illuminate\Support\Facades\Auth;
     Route::get('/restaurants/{restaurant}', [RestaurantsController::class, 'show']);
     Route::post('/restaurants/{restaurant}', [ReviewsController::class, 'add']);
 
+    Route::delete('/restaurants/{review}', [ReviewsController::class, 'remove'])->middleware('reviewer');
     Route::get('/account', [UsersController::class, 'user'])->middleware('reviewer');
     Route::get('/account/{review}/edit', [ReviewsController::class, 'edit'])->middleware('reviewer');;
     Route::patch('/account/{review}', [ReviewsController::class, 'patch'])->middleware('reviewer');
-    Route::delete('/account/{review}', [ReviewsController::class, 'remove'])->middleware('reviewer');
 
     Route::get('/admin', [UsersController::class, 'index'])->middleware('admin');
     Route::post('/admin', [RestaurantsController::class, 'add'])->middleware('admin');
